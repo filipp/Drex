@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C215739713D7F64000BFB6E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C215739613D7F64000BFB6E9 /* Cocoa.framework */; };
+		C21573A113D7F64000BFB6E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C215739F13D7F64000BFB6E9 /* InfoPlist.strings */; };
+		C21573A313D7F64000BFB6E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C21573A213D7F64000BFB6E9 /* main.m */; };
+		C21573A713D7F64000BFB6E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C21573A513D7F64000BFB6E9 /* Credits.rtf */; };
+		C21573AA13D7F64000BFB6E9 /* DrexAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C21573A913D7F64000BFB6E9 /* DrexAppDelegate.m */; };
+		C21573AD13D7F64000BFB6E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21573AB13D7F64000BFB6E9 /* MainMenu.xib */; };
+		C21573B513D7F64100BFB6E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21573B413D7F64000BFB6E9 /* SenTestingKit.framework */; };
+		C21573B613D7F64100BFB6E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C215739613D7F64000BFB6E9 /* Cocoa.framework */; };
+		C21573BE13D7F64100BFB6E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C21573BC13D7F64100BFB6E9 /* InfoPlist.strings */; };
+		C21573C013D7F64100BFB6E9 /* DrexTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C21573BF13D7F64100BFB6E9 /* DrexTests.h */; };
+		C21573C213D7F64100BFB6E9 /* DrexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21573C113D7F64100BFB6E9 /* DrexTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C21573B713D7F64100BFB6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C215738913D7F63F00BFB6E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C215739113D7F64000BFB6E9;
+			remoteInfo = Drex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C215739213D7F64000BFB6E9 /* Drex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C215739613D7F64000BFB6E9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C215739913D7F64000BFB6E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C215739A13D7F64000BFB6E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C215739B13D7F64000BFB6E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C215739E13D7F64000BFB6E9 /* Drex-Info.plist */ = {isa = PBXFileReference; path = "Drex-Info.plist"; sourceTree = "<group>"; };
+		C21573A013D7F64000BFB6E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C21573A213D7F64000BFB6E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C21573A413D7F64000BFB6E9 /* Drex-Prefix.pch */ = {isa = PBXFileReference; path = "Drex-Prefix.pch"; sourceTree = "<group>"; };
+		C21573A613D7F64000BFB6E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C21573A813D7F64000BFB6E9 /* DrexAppDelegate.h */ = {isa = PBXFileReference; path = DrexAppDelegate.h; sourceTree = "<group>"; };
+		C21573A913D7F64000BFB6E9 /* DrexAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrexAppDelegate.m; sourceTree = "<group>"; };
+		C21573AC13D7F64000BFB6E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C21573B313D7F64000BFB6E9 /* DrexTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrexTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21573B413D7F64000BFB6E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C21573BB13D7F64100BFB6E9 /* DrexTests-Info.plist */ = {isa = PBXFileReference; path = "DrexTests-Info.plist"; sourceTree = "<group>"; };
+		C21573BD13D7F64100BFB6E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C21573BF13D7F64100BFB6E9 /* DrexTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrexTests.h; sourceTree = "<group>"; };
+		C21573C113D7F64100BFB6E9 /* DrexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrexTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C215738F13D7F64000BFB6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C215739713D7F64000BFB6E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21573AF13D7F64000BFB6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21573B513D7F64100BFB6E9 /* SenTestingKit.framework in Frameworks */,
+				C21573B613D7F64100BFB6E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C215738713D7F63F00BFB6E9 = {
+			isa = PBXGroup;
+			children = (
+				C215739C13D7F64000BFB6E9 /* Drex */,
+				C21573B913D7F64100BFB6E9 /* DrexTests */,
+				C215739513D7F64000BFB6E9 /* Frameworks */,
+				C215739313D7F64000BFB6E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C215739313D7F64000BFB6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C215739213D7F64000BFB6E9 /* Drex.app */,
+				C21573B313D7F64000BFB6E9 /* DrexTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C215739513D7F64000BFB6E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C215739613D7F64000BFB6E9 /* Cocoa.framework */,
+				C21573B413D7F64000BFB6E9 /* SenTestingKit.framework */,
+				C215739813D7F64000BFB6E9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C215739813D7F64000BFB6E9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C215739913D7F64000BFB6E9 /* AppKit.framework */,
+				C215739A13D7F64000BFB6E9 /* CoreData.framework */,
+				C215739B13D7F64000BFB6E9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C215739C13D7F64000BFB6E9 /* Drex */ = {
+			isa = PBXGroup;
+			children = (
+				C21573A813D7F64000BFB6E9 /* DrexAppDelegate.h */,
+				C21573A913D7F64000BFB6E9 /* DrexAppDelegate.m */,
+				C21573AB13D7F64000BFB6E9 /* MainMenu.xib */,
+				C215739D13D7F64000BFB6E9 /* Supporting Files */,
+			);
+			path = Drex;
+			sourceTree = "<group>";
+		};
+		C215739D13D7F64000BFB6E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C215739E13D7F64000BFB6E9 /* Drex-Info.plist */,
+				C215739F13D7F64000BFB6E9 /* InfoPlist.strings */,
+				C21573A213D7F64000BFB6E9 /* main.m */,
+				C21573A413D7F64000BFB6E9 /* Drex-Prefix.pch */,
+				C21573A513D7F64000BFB6E9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C21573B913D7F64100BFB6E9 /* DrexTests */ = {
+			isa = PBXGroup;
+			children = (
+				C21573BF13D7F64100BFB6E9 /* DrexTests.h */,
+				C21573C113D7F64100BFB6E9 /* DrexTests.m */,
+				C21573BA13D7F64100BFB6E9 /* Supporting Files */,
+			);
+			path = DrexTests;
+			sourceTree = "<group>";
+		};
+		C21573BA13D7F64100BFB6E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21573BB13D7F64100BFB6E9 /* DrexTests-Info.plist */,
+				C21573BC13D7F64100BFB6E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C215739113D7F64000BFB6E9 /* Drex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21573C513D7F64100BFB6E9 /* Build configuration list for PBXNativeTarget "Drex" */;
+			buildPhases = (
+				C215738E13D7F64000BFB6E9 /* Sources */,
+				C215738F13D7F64000BFB6E9 /* Frameworks */,
+				C215739013D7F64000BFB6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drex;
+			productName = Drex;
+			productReference = C215739213D7F64000BFB6E9 /* Drex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C21573B213D7F64000BFB6E9 /* DrexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21573C813D7F64100BFB6E9 /* Build configuration list for PBXNativeTarget "DrexTests" */;
+			buildPhases = (
+				C21573AE13D7F64000BFB6E9 /* Sources */,
+				C21573AF13D7F64000BFB6E9 /* Frameworks */,
+				C21573B013D7F64000BFB6E9 /* Resources */,
+				C21573B113D7F64000BFB6E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21573B813D7F64100BFB6E9 /* PBXTargetDependency */,
+			);
+			name = DrexTests;
+			productName = DrexTests;
+			productReference = C21573B313D7F64000BFB6E9 /* DrexTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C215738913D7F63F00BFB6E9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C215738C13D7F63F00BFB6E9 /* Build configuration list for PBXProject "Drex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C215738713D7F63F00BFB6E9;
+			productRefGroup = C215739313D7F64000BFB6E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C215739113D7F64000BFB6E9 /* Drex */,
+				C21573B213D7F64000BFB6E9 /* DrexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C215739013D7F64000BFB6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21573A113D7F64000BFB6E9 /* InfoPlist.strings in Resources */,
+				C21573A713D7F64000BFB6E9 /* Credits.rtf in Resources */,
+				C21573AD13D7F64000BFB6E9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21573B013D7F64000BFB6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21573BE13D7F64100BFB6E9 /* InfoPlist.strings in Resources */,
+				C21573C013D7F64100BFB6E9 /* DrexTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C21573B113D7F64000BFB6E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C215738E13D7F64000BFB6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21573A313D7F64000BFB6E9 /* main.m in Sources */,
+				C21573AA13D7F64000BFB6E9 /* DrexAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21573AE13D7F64000BFB6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21573C213D7F64100BFB6E9 /* DrexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C21573B813D7F64100BFB6E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C215739113D7F64000BFB6E9 /* Drex */;
+			targetProxy = C21573B713D7F64100BFB6E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C215739F13D7F64000BFB6E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21573A013D7F64000BFB6E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C21573A513D7F64000BFB6E9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21573A613D7F64000BFB6E9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C21573AB13D7F64000BFB6E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21573AC13D7F64000BFB6E9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C21573BC13D7F64100BFB6E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21573BD13D7F64100BFB6E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C21573C313D7F64100BFB6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C21573C413D7F64100BFB6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C21573C613D7F64100BFB6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drex/Drex-Prefix.pch";
+				INFOPLIST_FILE = "Drex/Drex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C21573C713D7F64100BFB6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drex/Drex-Prefix.pch";
+				INFOPLIST_FILE = "Drex/Drex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C21573C913D7F64100BFB6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drex.app/Contents/MacOS/Drex";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drex/Drex-Prefix.pch";
+				INFOPLIST_FILE = "DrexTests/DrexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C21573CA13D7F64100BFB6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drex.app/Contents/MacOS/Drex";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drex/Drex-Prefix.pch";
+				INFOPLIST_FILE = "DrexTests/DrexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C215738C13D7F63F00BFB6E9 /* Build configuration list for PBXProject "Drex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21573C313D7F64100BFB6E9 /* Debug */,
+				C21573C413D7F64100BFB6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21573C513D7F64100BFB6E9 /* Build configuration list for PBXNativeTarget "Drex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21573C613D7F64100BFB6E9 /* Debug */,
+				C21573C713D7F64100BFB6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21573C813D7F64100BFB6E9 /* Build configuration list for PBXNativeTarget "DrexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21573C913D7F64100BFB6E9 /* Debug */,
+				C21573CA13D7F64100BFB6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C215738913D7F63F00BFB6E9 /* Project object */;
+}
